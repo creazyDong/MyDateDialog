@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="color8e"></color>
+    <color name="colorDateDialog">#F3F9FF</color>
+    <color name="colorDateDialogSelected">#19be6b</color>
+    <color name="colorDateSection">#B8F1CF</color>
+</resources>

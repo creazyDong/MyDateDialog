@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SrcScrollFrameLayout">
+        <!--背景图片-->
+        <attr name="src" format="reference" />
+        <!--遮罩层颜色，建议带透明度-->
+        <attr name="maskLayerColor" format="color" />
+        <!--是否滚动-->
+        <attr name="isScroll" format="boolean" />
+        <!--滚动速度,建议取值区间 [1,50] -->
+        <attr name="speed" format="integer">
+            <enum name="slow" value="1" />
+            <enum name="ordinary" value="3" />
+            <enum name="fast" value="5" />
+        </attr>
+        <!-- 滚动方向,默认是竖直方向滚动-->
+        <attr name="scrollOrientation" format="integer">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyCalendar">
+        <!--标头文字-->
+        <attr name="titleTip" format="string"></attr>
+        <!--选择单个/范围日期-->
+        <attr name="mode" format="integer">
+            <enum name="date" value="0"></enum>
+            <enum name="range" value="1"></enum>
+        </attr>
+        <!--开始日期-->
+        <attr name="startDate" format="string"></attr>
+        <!--结束日期-->
+        <attr name="endDate" format="string"></attr>
+        <!--可选最小日期-->
+        <attr name="minDate" format="string"></attr>
+        <!--可选最大日期-->
+        <attr name="maxDate" format="string"></attr>
+        <!--选中的背景颜色-->
+        <attr name="selectColor" format="reference"></attr>
+        <!--背景颜色-->
+        <attr name="backgroundColor" format="reference"></attr>
+        <!--文字基础颜色-->
+        <attr name="nomorCollor" format="reference"></attr>
+        <!--区间模式背景颜色-->
+        <attr name="dateSectionColor" format="reference"></attr>
+        <!--标题文字大小-->
+        <attr name="titleTextSize" format="dimension"></attr>
+        <!--日期字体大小-->
+        <attr name="dayTextSize" format="dimension"></attr>
+        <!--底部描述文字大小-->
+        <attr name="tipTextSize" format="dimension"></attr>
+        <!--开始时间底部描述 mode为range模式生效-->
+        <attr name="startDateTip" format="string"></attr>
+        <!--结束时间底部描述 mode为range模式生效-->
+        <attr name="endDateTip" format="string"></attr>
+    </declare-styleable>
+</resources>

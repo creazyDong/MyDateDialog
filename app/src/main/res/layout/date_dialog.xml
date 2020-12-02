@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/date_dialog"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+
+    <com.rgsc.rgscaibot.ui.MyCalendar
+        android:id="@+id/calendar"
+        app:mode="range"
+        app:dayTextSize="15sp"
+        app:titleTextSize="14sp"
+        app:tipTextSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/data_dialog_btn"
+        android:textColor="@android:color/white"
+        android:stateListAnimator="@null"
+        android:textSize="15sp"
+        android:text="确 定"/>
+</LinearLayout>
